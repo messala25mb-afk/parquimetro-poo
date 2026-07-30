@@ -1,0 +1,91 @@
+/*ESTILO GERAL DA PÁGINA*/
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+/*TÍTULO*/
+
+h1{
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #333;
+    margin-top: 30px;
+}
+
+/*TABELA*/
+
+table{
+    margin: 20px auto;          /* Centraliza a tabela */
+    border-collapse: collapse;  /* Junta as bordas */
+    background-color: white;
+}
+
+/*Cabeçalho*/
+
+th{
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 25px;
+    border: 1px solid #ccc;
+}
+
+/*Células*/
+
+td{
+    padding: 12px 25px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/*Linhas alternadas*/
+
+tr:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+/*Efeito quando passa o mouse*/
+
+tr:hover{
+    background-color: #eaf3ff;
+}
+
+/*CAMPO DE VALOR*/
+
+input{
+    width: 220px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/*BOTÃO*/
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+/*RESULTADO*/
+
+#resultado{
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
